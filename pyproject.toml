@@ -20,5 +20,9 @@ classifiers = [
 ]
  
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com"
+"Bug Tracker" = "https://github.com/issues"
+
+# ⚠️ツールにフォルダの場所を直接指名する必須の設定です
+[tool.hatch.build.targets.wheel]
+packages = ["src/example_package_blue_chat_tea_test"]
