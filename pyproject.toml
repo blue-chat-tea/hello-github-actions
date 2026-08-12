@@ -5,6 +5,7 @@ build-backend = "hatchling.build"
  
 # パッケージのメタデータ
 [project]
+# ★最後に「t」が入った正しい名前に統一しました
 name = "example_package_blue_chat_tea_test"
 version = "0.0.1"
 authors = [
