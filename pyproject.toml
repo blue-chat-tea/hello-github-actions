@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
  
 # パッケージのメタデータ
 [project]
-name = "example_package_yuko"
+name = "example_package_blue_chat_tea_test"
 version = "0.0.1"
 authors = [
   { name="Example Author", email="author@example.com" },
